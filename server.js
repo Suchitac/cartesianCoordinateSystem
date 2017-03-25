@@ -1,6 +1,6 @@
 var express=require('express');
 var app=express();
 app.use(express.static('public'));
-app.listen(3000,function(){
+app.listen(process.env.PORT || 3000,function(){
     console.log('express server is up on 3000');
 });
