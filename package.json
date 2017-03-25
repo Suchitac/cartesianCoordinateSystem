@@ -1,0 +1,23 @@
+{
+  "name": "cartisiansystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vamshikrishna144/cartesianCoordinateSystem.git"
+  },
+  "author": "IBM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vamshikrishna144/cartesianCoordinateSystem/issues"
+  },
+  "homepage": "https://github.com/vamshikrishna144/cartesianCoordinateSystem#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
